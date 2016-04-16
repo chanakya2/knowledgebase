@@ -12,6 +12,10 @@ class TasksController < ApplicationController
     @task = Task.find(params[:id])
   end
 
+  def index
+    @tasks = Task.all
+  end
+
   private
     def task_params
       params.require(:task).permit(:name, :task_type)

@@ -1,0 +1,15 @@
+<h1>Listing Tasks</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Task Type</th>
+  </tr>
+
+  <% @tasks.each do |task| %>
+      <tr>
+        <td><%= task.name %></td>
+        <td><%= task.task_type %></td>
+      </tr>
+  <% end %>
+</table>
