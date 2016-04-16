@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  type: 
+  assigned_to: MyString
+  scheduled_start_date: 2016-04-16 13:26:08
+  scheduled_end_date: 2016-04-16 13:26:08
+  actual_start_date: 2016-04-16 13:26:08
+  actual_end_date: 2016-04-16 13:26:08
+  hours_worked: 9.99
+  resolution: MyText
+  level: 1
+
+two:
+  name: MyString
+  type: 
+  assigned_to: MyString
+  scheduled_start_date: 2016-04-16 13:26:08
+  scheduled_end_date: 2016-04-16 13:26:08
+  actual_start_date: 2016-04-16 13:26:08
+  actual_end_date: 2016-04-16 13:26:08
+  hours_worked: 9.99
+  resolution: MyText
+  level: 1
