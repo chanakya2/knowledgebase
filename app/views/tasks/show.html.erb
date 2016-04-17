@@ -5,3 +5,6 @@
 <p>
   <strong>Type:</strong><%= @task.task_type %>
 </p>
+
+<%= link_to 'Back', tasks_path %>
+<%= link_to 'Edit', edit_task_path(@task) %>
