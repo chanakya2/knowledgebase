@@ -1,5 +1,13 @@
 Knowledgebase::Application.routes.draw do
   resources :tasks
+
+  resources :applications do
+    resources :tasks
+  end
+
+  resources :task_types do
+    resources :tasks
+  end
   root "home#index"
 
 
