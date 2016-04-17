@@ -210,7 +210,7 @@
   210  heroku run rake db:migrate
   211  heroku logs
 
-  
+
   274  rails new knowledgebase
   275  bin/rails server
   276  cd knowledgebase/
