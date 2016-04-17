@@ -1,0 +1,297 @@
+    1  sudo nano /private/etc/host
+    2  ls /private/etc/
+    3  TextEdit
+    4  text
+    5  more /private/etc/hosts
+    6  sudo nano /private/etc/hosts
+    7  cd Documents/
+    8  workspace-opis/
+    9  ls
+   10  cd workspace-opis/
+   11  ls
+   12  cd 00_OPIS/
+   13  ls
+   14  mvn clean install
+   15  mvn clean install
+   16  mvn clean install
+   17  mvn clean install
+   18  mvn clean install
+   19  mvn clean install
+   20  mvn clean install
+   21  mvn clean install
+   22  git
+   23  ruby -v
+   24  rvm
+   25  curl
+   26  curl -sSL https://get.rvm.io | bash -s stable
+   27  rvm get stable
+   28  exi
+   29  exit
+   30  rvm get stable
+   31  rvm requirements
+   32  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+   33  sudo ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+   34  brew doctor
+   35  xcodebuild -license
+   36  brew doctor
+   37  brew install libtool libxslt libksba openssl
+   38  brew install libyaml
+   39  rvm install 2.0.0 --with-openssl-dir=$HOME/.rvm/usr
+   40  rvm doc generate-ri
+   41  rvm docs generate-ri
+   42  rvm use 2.0.0@railstutorial_rails_4_0 --create --default
+   43  which gem
+   44  gem update --system 2.1.9
+   45  gem install rails --verson 4.0.8
+   46  gem install rails --version 4.0.8
+   47  ls
+   48  cd Documents/programming/
+   49  mkdir rails
+   50  cd rails
+   51  ls
+   52  rails new first_app
+   53  ls
+   54  cd first_app
+   55  sub1 Gemfile
+   56  subl Gemfile
+   57  bundle install
+   58  rails server
+   59  git config --global user.name amitabh
+   60  git config --global user.email chanakya2@yahoo.com
+   61  git init
+   62  subl
+   63  cd Documents/
+   64  s
+   65  ls
+   66  cd programming/
+   67  cd rails/first_app/
+   68  edit .gitignore
+   69  ls -a
+   70  textedit
+   71  subl
+   72  sub1
+   73  ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+   74  ls -a ~
+   75  ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+   76  subl
+   77  open -e .gitignore 
+   78  git add .
+   79  git status
+   80  commit -m "Initialize repository"
+   81  git commit -m "Initialize repository"
+   82  git log
+   83  q
+   84  git remote add origin https://github.com/chanakya2/first_app.git
+   85  git push -u origin master
+   86  git checkout -b modify-README
+   87  git branch
+   88  git mv README.rdoc README.md
+   89  open README.md 
+   90  git commit -a -m "Improve teh README file"
+   91  git checkout master
+   92  git merge modify-README
+   93  git branch -d modify-README
+   94  git push
+   95  ls -a
+   96  open -e Gemfile
+   97  bundle install --without production
+   98  git commit -a -m "Update Gemfile.lock for Heroku"
+   99  heroku
+  100  heroku login
+  101  heroku create
+  102  git push heroku master
+  103  cd ..
+  104  ls
+  105  cd ..
+  106  cd ..
+  107  ls
+  108  cd programming/rails/
+  109  ls
+  110  create_new_app.sh
+  111  ls -al
+  112  chmod 777
+  113  chmod 777 create_new_app.sh 
+  114  ls
+  115  ./create_new_app.sh demo_app
+  116  ls
+  117  open -e Gemfile
+  118  cd demo_app/
+  119  cd ..
+  120  ls
+  121  open -e create_new_app.sh 
+  122  cd demo_app/
+  123  ls
+  124  open -e Gemfile
+  125  bundle install --without production
+  126  git init
+  127  git add .
+  128  git commit -m "Initial commit"
+  129  git remote add origin https://github.com/chanakya2/demo_app.git
+  130  git push -u origin master
+  131  git remote add origin https://github.com/chanakya2@gmail.com/demo_app.git
+  132  git push -u origin master
+  133  git push -u origin master
+  134  rails generate scaffold User name:string email:string
+  135  bundle exec rake db:migrate
+  136  rails s
+  137  rails generate scaffold Micropost content:string user_id:integer
+  138  bundle exec rake db:migrate
+  139  open -e config/routes.rb 
+  140  rails s
+  141  open -e app/models/micropost.rb 
+  142  open -e app/models/user.rb 
+  143  rails console
+  144  rails console
+  145  git add .
+  146  git commit -m "Finish demo app"
+  147  git push
+  148  heroku create
+  149  cd ..
+  150  rails new sample_app --skip-test-unit
+  151  cd sample_app/
+  152  open -e Gemfile
+  153  bundle install --without production
+  154  gem install nokogiri -v '1.6.3.1'
+  155  gem install nokogiri
+  156  brew unlink gcc-4.2
+  157  gem uninstall nokogiri
+  158  xcode-select --install
+  159  gem install nokogiri
+  160  bundle install --without production
+  161  bundle update
+  162  open -e config/initializers/secret_token.rb 
+  163  cp ../first_app/.gitignore .gitignore 
+  164  open -e .gitignore 
+  165  rails generate rspec:install
+  166  rails generate rspec:install
+  167  git init
+  168  git add .
+  169  git commit -m "Initial commit"
+  170  open -e README.rdoc 
+  171  git mv README.rdoc README.md
+  172  git commit -m "Improve the README"
+  173  git commit -a
+  174  cd ..
+  175  ls
+  176  cd Shared
+  177  ls
+  178  cd ..
+  179  cd amitabh/
+  180  mkdir bin
+  181  ls -a
+  182  ls -al
+  183  mate
+  184  textedit
+  185  cd Documents/programming/rails/sample_app/
+  186  git status
+  187  git commit -am "Improve the README"
+  188  git push -u origin master
+  189  git push -u origin master
+  190  git remote add origin https://github.com/chanakya2@gmail.com/sample_app.git
+  191  git push -u origin master
+  192  git remote add origin https://github.com/chanakya2/sample_app.git
+  193  git push -u origin master
+  194  git status
+  195  git -version
+  196  git --version
+  197  git push -u origin master
+  198  ls -al ~/.ssh
+  199  pbcopy < ~/.ssh/id_rsa.pub
+  200  cd Documents/programming/rails/sample_app/
+  201  git push -u origin master
+  202  git remote add origin https://github.com/chanakya2/sample_app.git
+  203  git push -u origin master
+  204  git push -u https://github.com/chanakya2@gmail.com/sample_app.git/': The requested URL returned error: 400
+  205  exit
+  206  git push -u https://github.com/chanakya2/sample_app.git master
+  207  heroku create
+  208  git push heroku master
+  209  git push heroku master
+  210  heroku run rake db:migrate
+  211  heroku logs
+
+  
+  274  rails new knowledgebase
+  275  bin/rails server
+  276  cd knowledgebase/
+  277  bin/rails server
+  278  bin/rails generate controller home index
+  279  bin/rake routes
+  280  git -help
+  281  git --version
+  282  ls -al
+  283  git init
+  284  git add .
+  285  git commit -m "Initial Commit"
+  286  bin/rails g controller tasks
+  287  git commit -m "Created tasks controller view route"
+  288  git status
+  289  git add app/assets/javascripts/tasks.js.coffee 
+  290  git add app/assets/stylesheets/tasks.css.scss 
+  291  git add app/controllers/tasks_controller.rb 
+  292  git add app/helpers/tasks_helper.rb 
+  293  git add app/views/tasks/
+  294  git add test/controllers/tasks_controller_test.rb 
+  295  git add test/helpers/tasks_helper_test.rb 
+  296  git commit -m "Created tasks controller view route"
+  297  git status
+  298  git commit -m 
+  299  git commit -a "Modified routes"
+  300  git -a commit config/routes.rb "Modified routes"
+  301  git commit config/routes.rb "Modified routes"
+  302  git commit config/routes.rb -m "Modified routes"
+  303  bin/rake routes
+  304  git status
+  305  git add app/views/tasks/create.html.erb 
+  306  git status
+  307  git commit -m "Added task create"
+  308  bin/rails generate model Task name:string type:string assigned_to:string scheduled_start_date:datetime scheduled_end_date:datetime actual_start_date:datetime actual_end_date:datetime hours_worked:decimal resolution:text level:integer
+  309  git status
+  310  git add .
+  311  git status
+  312  git commit -m "Created Task model"
+  313  bin/rake db:migrate
+  314  script/generate migration FixTasksTypeColumn
+  315  pwd
+  316  ls -al
+  317  find script
+  318* 
+  319  rails generate migration FixTasksTypeColumn
+  320  bin/rake db:migrate
+  321  git add .
+  322  git status
+  323  git commit -m "Fixed type columnname"
+  324  rake routes
+  325  git status
+  326  git add .
+  327  git commit -m "Added list all tasks"
+  328  rails --version
+  329  debug params
+  330  git status
+  331  git commit -m "Added links"
+  332  git add
+  333  git add .
+  334  git commit -m "Added links"
+  335  git commit -m "fixed new task links"
+  336  git add .
+  337  git commit -m "fixed new task links"
+  338  git status
+  339  git commit -m "Added validation, errors"
+  340  git add .
+  341  git commit -m "Added validation, errors"
+  342  git add .
+  343  git commit -m "Adding update"
+  344  git add .
+  345  git commit -a "Added edit"
+  346  git commit -a "Removed duplicate forms"
+  347  git commit -m "Removed duplicate forms"
+  348  git status
+  349  git add .
+  350  git status
+  351  git commit -m "Removed duplicate forms - more files"
+  352  git status
+  353  git commit -m "Added delete"
+  354  git add .
+  355  git commit -m "Added delete"
+  356  history
+  357  history > history.txt
