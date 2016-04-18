@@ -11,13 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160418183710) do
+ActiveRecord::Schema.define(version: 20160418191814) do
 
   create_table "applications", force: true do |t|
     t.string   "app_name"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "task_id"
   end
+
+  add_index "applications", ["task_id"], name: "index_applications_on_task_id"
 
   create_table "task_types", force: true do |t|
     t.string   "task_type"
