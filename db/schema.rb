@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160417005646) do
+ActiveRecord::Schema.define(version: 20160418183710) do
 
   create_table "applications", force: true do |t|
     t.string   "app_name"
@@ -28,7 +28,7 @@ ActiveRecord::Schema.define(version: 20160417005646) do
 
   create_table "tasks", force: true do |t|
     t.string   "name"
-    t.string   "task_type"
+    t.string   "task_type_info"
     t.string   "assigned_to"
     t.datetime "scheduled_start_date"
     t.datetime "scheduled_end_date"
